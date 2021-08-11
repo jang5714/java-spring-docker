@@ -21,6 +21,6 @@ class CalculatorServiceImplTest {
     @Test
     void createRandomNumbers() {
         given(calculatorService.createRandomNumbers()).willReturn(30);
-`       assertThat(calculatorService.createRandomNumbers()).isEqualTo(50);
+        assertThat(calculatorService.createRandomNumbers()).isEqualTo(50);
     }
 }
